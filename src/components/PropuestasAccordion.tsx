@@ -144,9 +144,9 @@ export default function PropuestasAccordion() {
                     <div className="w-10 h-10 rounded-xl bg-amber-500/10 text-amber-600 flex items-center justify-center mb-3">
                       <Zap className="w-5 h-5" />
                     </div>
-                    <h4 className="font-bold text-slate-900 text-lg mb-1">Choripanada del 18</h4>
+                    <h4 className="font-bold text-slate-900 text-lg mb-1">Fiestas Patrias con ChoriBytes (Choripanes)</h4>
                     <p className="text-sm text-slate-600 leading-relaxed">
-                      Celebración tradicional para las Fiestas Patrias con comida, música y compartir en comunidad.
+                      Celebración para las Fiestas Patrias con comida, música y compartir en comunidad.
                     </p>
                   </div>
 
