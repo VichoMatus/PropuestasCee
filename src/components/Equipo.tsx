@@ -7,6 +7,7 @@ export default function Equipo() {
     {
       nombre: "Vicente Matus Mora",
       cargo: "Presidente",
+      ano: "Estudiante de 3er año",
       icono: UserCheck,
       iniciales: "VM",
       color: "from-amber-500/20 to-brand-gold-500/10",
@@ -16,6 +17,7 @@ export default function Equipo() {
     {
       nombre: "Franco Oyarzo Calisto",
       cargo: "Vicepresidente",
+      ano: "Estudiante de 4to año",
       icono: Shield,
       iniciales: "FO",
       color: "from-blue-500/20 to-brand-navy-600/10",
@@ -25,6 +27,7 @@ export default function Equipo() {
     {
       nombre: "Daniela Romero Coliñir",
       cargo: "Secretaría de Finanzas",
+      ano: "Estudiante de 3er año",
       icono: DollarSign,
       iniciales: "DRC",
       color: "from-emerald-500/20 to-teal-600/10",
@@ -34,6 +37,7 @@ export default function Equipo() {
     {
       nombre: "Denys Rodríguez Noguera",
       cargo: "Secretaría General",
+      ano: "Estudiante de 2do año",
       icono: FileText,
       iniciales: "DN",
       color: "from-indigo-500/20 to-purple-600/10",
@@ -91,10 +95,13 @@ export default function Equipo() {
                     </div>
                   </div>
 
-                  {/* Name & Role */}
-                  <h3 className="text-xl font-bold text-slate-900 group-hover:text-brand-navy-700 transition-colors mb-1">
+                  {/* Name, Role & Year */}
+                  <h3 className="text-xl font-bold text-slate-900 group-hover:text-brand-navy-700 transition-colors mb-0.5">
                     {persona.nombre}
                   </h3>
+                  <p className="text-xs font-semibold text-slate-500 mb-3">
+                    {persona.ano}
+                  </p>
                   <div className="inline-block px-3 py-1 rounded-lg bg-slate-100 text-slate-700 text-xs font-bold tracking-wide uppercase mb-4">
                     {persona.cargo}
                   </div>
