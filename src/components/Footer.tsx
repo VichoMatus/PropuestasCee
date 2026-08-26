@@ -35,18 +35,10 @@ export default function Footer() {
             <span className="gold-gradient-text">la carrera.</span>
           </h2>
 
-          <p className="max-w-2xl mx-auto text-lg sm:text-xl text-slate-300 font-normal mb-8 leading-relaxed">
+          <p className="max-w-2xl mx-auto text-lg sm:text-xl text-slate-300 font-normal mb-2 leading-relaxed">
             Vota por el equipo al Centro de Alumnos de{" "}
             <strong className="text-white font-semibold">Ingeniería Civil Informática</strong>.
           </p>
-
-          <a
-            href="#propuestas"
-            className="inline-flex items-center gap-3 px-8 py-4 text-lg font-extrabold rounded-2xl bg-gradient-to-r from-brand-gold-500 to-brand-gold-400 text-brand-navy-950 shadow-xl shadow-brand-gold-500/30 hover:scale-105 active:scale-95 transition-all"
-          >
-            <Vote className="w-6 h-6" />
-            <span>Revisa nuestro plan completo</span>
-          </a>
         </div>
 
         {/* Footer Bottom Bar */}

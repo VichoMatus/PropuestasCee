@@ -77,13 +77,6 @@ export default function Navbar() {
                 {link.name}
               </a>
             ))}
-            <a
-              href="#propuestas"
-              className="inline-flex items-center justify-center gap-2 px-4 py-2 text-sm font-semibold rounded-full bg-gradient-to-r from-brand-gold-500 to-brand-gold-400 text-brand-navy-950 hover:from-brand-gold-400 hover:to-brand-gold-300 transition-all shadow-md shadow-brand-gold-500/20 hover:scale-105 active:scale-95"
-            >
-              <span>Ver Propuestas</span>
-              <ChevronRight className="w-4 h-4" />
-            </a>
           </nav>
 
           {/* Mobile Hamburger Button */}
@@ -118,16 +111,6 @@ export default function Navbar() {
               {link.name}
             </a>
           ))}
-          <div className="pt-2">
-            <a
-              href="#propuestas"
-              onClick={() => setIsOpen(false)}
-              className="flex items-center justify-center gap-2 w-full px-4 py-3 rounded-xl bg-gradient-to-r from-brand-gold-500 to-brand-gold-400 text-brand-navy-950 font-bold shadow-lg shadow-brand-gold-500/20"
-            >
-              <Award className="w-5 h-5 text-brand-navy-950" />
-              <span>Ver Propuestas</span>
-            </a>
-          </div>
         </div>
       )}
     </header>
