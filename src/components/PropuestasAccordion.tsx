@@ -222,38 +222,29 @@ export default function PropuestasAccordion() {
                     Iniciativas Complementarias
                   </h3>
                   <p className="text-xs sm:text-sm text-slate-500 font-normal">
-                    Apoyo entre estudiantes y recursos compartidos
+                    Apoyo e inducción constante para estudiantes
                   </p>
                 </div>
               </div>
             </AccordionTrigger>
             <AccordionContent>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
-                <div className="p-5 rounded-2xl bg-white border border-slate-200 hover:border-emerald-400 hover:shadow-md transition-all">
-                  <div className="flex items-center gap-3 mb-2">
-                    <div className="p-2 rounded-lg bg-emerald-100 text-emerald-800">
-                      <Users className="w-5 h-5" />
+              <div className="pt-2">
+                <div className="p-6 rounded-2xl bg-white border border-slate-200 hover:border-emerald-400 hover:shadow-md transition-all">
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="p-2.5 rounded-xl bg-emerald-100 text-emerald-800">
+                      <Users className="w-6 h-6" />
                     </div>
-                    <h4 className="font-bold text-slate-900 text-base">
-                      Programa de Acompañamiento
-                    </h4>
-                  </div>
-                  <p className="text-sm text-slate-600 leading-relaxed">
-                    Apoyo y orientación constante para estudiantes nuevos en su ingreso a la vida universitaria e informática.
-                  </p>
-                </div>
-
-                <div className="p-5 rounded-2xl bg-white border border-slate-200 hover:border-emerald-400 hover:shadow-md transition-all">
-                  <div className="flex items-center gap-3 mb-2">
-                    <div className="p-2 rounded-lg bg-emerald-100 text-emerald-800">
-                      <BookOpenCheck className="w-5 h-5" />
+                    <div>
+                      <h4 className="font-bold text-slate-900 text-lg">
+                        Programa de Acompañamiento para Estudiantes Nuevos
+                      </h4>
+                      <span className="text-xs text-emerald-700 font-semibold">
+                        Inducción e integración a la carrera
+                      </span>
                     </div>
-                    <h4 className="font-bold text-slate-900 text-base">
-                      Banco Colaborativo de Recursos
-                    </h4>
                   </div>
-                  <p className="text-sm text-slate-600 leading-relaxed">
-                    Repositorio colaborativo de apuntes, guías, libros de referencia y material académico para todas las asignaturas.
+                  <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
+                    Tutorías, orientación constante y espacio de mentoría entre pares pensado para guiar a las y los estudiantes de primer año en su adaptación a la vida universitaria e informática.
                   </p>
                 </div>
               </div>
